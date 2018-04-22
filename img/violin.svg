@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Violin Welcome Page</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <section id="section-one" class="demo">
-    <a href="#section-two">
-      <span></span>Scroll down</a>
-
-    <div id="container">
-    <svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
       xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
        width="100%" viewbox="0 -29 721 1670">      
@@ -1142,140 +1126,27 @@
           <g transform="translate(-5634.3291,-2545.7061)" id="g44-8" style="stroke-width:12.35497101;stroke-miterlimit:4;stroke-dasharray:none"
           />
         </g>
-        <ellipse id="buttonGerman" class="buttons" style="cursor:pointer;fill:#FEC503;fill-opacity:0;stroke:#373737;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1871)"
-          cx="-4228.3823" cy="-2553.0737" rx="45.579327" ry="42.283493" transform="matrix(0.97709598,0,0,0.97709598,-96.846968,-58.475659)"
+        <ellipse style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.94146741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1871)"
+          id="buttonGerman" cx="-4228.3823" cy="-2553.0737" rx="45.579327" ry="42.283493" transform="matrix(0.97709598,0,0,0.97709598,-96.846968,-58.475659)"
         />
-        <ellipse id="buttonEnglish" class="buttons" ry="42.283493" rx="45.579327" cy="-2601.6123" cx="-3956.9253" style="cursor:pointer;opacity:1;fill:#FEC503;fill-opacity:0;stroke:#373737;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1839)"
+        <ellipse ry="42.283493" rx="45.579327" cy="-2601.6123" cx="-3956.9253" id="buttonEnglish" style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.94140005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1839)"
           transform="matrix(0.97709598,0,0,0.97709598,-90.629511,-59.58739)" 
         />
-        <ellipse id="buttonNorwegian" class="buttons" style="cursor:pointer;opacity:1;fill:#FEC503;fill-opacity:0;stroke:#373737;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1855)"
-          cx="-3952.5518" cy="-2506.3328" rx="45.579327" ry="42.283493" transform  ="matrix(0.97709598,0,0,0.97709598,-90.529316,-57.405094)"
+        <ellipse style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.94140005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1855)"
+          id="buttonNorwegian" cx="-3952.5518" cy="-2506.3328" rx="45.579327" ry="42.283493" transform  ="matrix(0.97709598,0,0,0.97709598,-90.529316,-57.405094)"
         />
-        <ellipse id="buttonSlovak" class="buttons" ry="42.283493" rx="45.579327" cy="-2455.3972" cx="-4235.3945" style="cursor:pointer;opacity:1;fill:#FEC503;fill-opacity:0;stroke:#373737;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1887)"
+        <ellipse ry="42.283493" rx="45.579327" cy="-2455.3972" cx="-4235.3945" id="buttonSlovak" style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1.94140005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1887)"
           transform="matrix(0.96742176,0,0,0.96202105,-137.98171,-93.253418)" />
-        <path style="fill:none;stroke:#373737;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8,5;stroke-opacity:1"
+        <path style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
           d="m -4107.9338,-1069.1509 -3.7783,-151.9218 13.2986,-1336.4903" id="path1901" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
         />
-        <path style="fill:none;stroke:#373737;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:5,5"
+        <path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
           d="m -4074.036,-1070.743 2.0298,-150.3297 -14.328,-1380.4592" id="path1903" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
         />
-        <path style="fill:none;stroke:#373737;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10,5;stroke-opacity:1"
+        <path style="fill:none;stroke:#000000;stroke-width:3.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
           d="m -4111.5293,-2457.4942 -9.5878,85.5046 -31.1607,1150.1345 4.794,149.8108" id="path3817" inkscape:connector-curvature="0"
           sodipodi:nodetypes="cccc" />
-        <path style="fill:none;stroke:#373737;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:4,3"" d="m -4077.6741,-2506.6447 13.5322,117.4753 32.2305,1168.1179 -5.9322,147.4577"
+        <path style="fill:none;stroke:#000000;stroke-width:1.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m -4077.6741,-2506.6447 13.5322,117.4753 32.2305,1168.1179 -5.9322,147.4577"
           id="path3819" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" />
       </g>
     </svg>
-
-  
-    </div>
-  </section>
-  
-  <section id="section-two" class="demo">
-    <div class="box">
-      <h1>Dette er en tekst på norsk.</h1>
-    </div>
-    <a href="#section-one">
-      <span></span>Scroll up</a>
-  </section>
-  
-  <section id="section-three" class="demo">
-    <div class="box">
-      <h1>Dette er en tekst på norsk.</h1>
-    </div>
-    <a href="#section-one">
-      <span></span>Scroll up</a>
-  </section>
-  
-  <section id="section-four" class="demo">
-    <div class="box">
-      <h1>Dette er en tekst på norsk.</h1>
-    </div>
-    <a href="#section-one">
-      <span></span>Scroll up</a>
-  </section>
-
-  <section id="section-five" class="demo">
-    <div class="box">
-      <h1>Dette er en tekst på norsk.</h1>
-    </div>
-    <a href="#section-one">
-      <span></span>Scroll up</a>
-  </section>
-
-  <script>  
-  // Add scroll to all buttons
-  const buttons = document.getElementsByClassName('buttons');
-  for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', function() {
-    $('html,body').animate({
-        scrollTop: $("#section-two").offset().top},
-        'slow');
-  });
-  };
-
-  // Add event listeners to Norwegian button
-  const buttonNorwegian = document.getElementById('buttonNorwegian');
-  buttonNorwegian.addEventListener('mouseover', function() {
-    buttonNorwegian.style.fillOpacity = 0.7;
-  });
-  buttonNorwegian.addEventListener('mouseout', function() {
-    buttonNorwegian.style.fillOpacity = 0;
-  });
-  buttonNorwegian.addEventListener('click', function() {
-    const sections = document.getElementsByTagName('h1');
-    for (let i = 0; i < sections.length; i++) {
-      sections[i].textContent = 'Dette er en tekst på norsk.';
-    }
-  });
-
-  var buttonEnglish = document.getElementById('buttonEnglish');
-  buttonEnglish.addEventListener('mouseover', function() {
-    buttonEnglish.style.fillOpacity = 0.7;
-  });
-  buttonEnglish.addEventListener('mouseout', function() {
-    buttonEnglish.style.fillOpacity = 0;
-  });
-  buttonEnglish.addEventListener('click', function() {
-    const sections = document.getElementsByTagName('h1');
-    for (let i = 0; i < sections.length; i++) {
-      sections[i].textContent = 'This is a text in English.';
-    }
-  });
-
-  var buttonGerman = document.getElementById('buttonGerman');
-  buttonGerman.addEventListener('mouseover', function() {
-    buttonGerman.style.fillOpacity = 0.7;
-  });
-  buttonGerman.addEventListener('mouseout', function() {
-    buttonGerman.style.fillOpacity = 0;
-  });
-  buttonGerman.addEventListener('click', function() {
-    const sections = document.getElementsByTagName('h1');
-    for (let i = 0; i < sections.length; i++) {
-      sections[i].textContent = 'Dies ist ein Text auf Deutsch.';
-    }
-  });
-  var buttonSlovak = document.getElementById('buttonSlovak');
-  buttonSlovak.addEventListener('mouseover', function() {
-    buttonSlovak.style.fillOpacity = 0.7;
-  });
-  buttonSlovak.addEventListener('mouseout', function() {
-    buttonSlovak.style.fillOpacity = 0;
-  });
-  buttonSlovak.addEventListener('click', function() {
-    const sections = document.getElementsByTagName('h1');
-    for (let i = 0; i < sections.length; i++) {
-      sections[i].textContent = 'Toto je text v slovenčine.';
-    }
-  });
-
-  $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 670, 'linear');
-  });
-});
-</script>
-</body>
-</html>
