@@ -1153,17 +1153,17 @@
         />
         <ellipse id="buttonSlovak" class="buttons" ry="42.283493" rx="45.579327" cy="-2455.3972" cx="-4235.3945" style="cursor:pointer;opacity:1;fill:#FEC503;fill-opacity:0;stroke:#373737;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1887)"
           transform="matrix(0.96742176,0,0,0.96202105,-137.98171,-93.253418)" />
-        <path style="fill:none;stroke:#373737;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8,5;stroke-opacity:1"
-          d="m -4107.9338,-1069.1509 -3.7783,-151.9218 13.2986,-1336.4903" id="path1901" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
+        <path id="stringD" style="fill:none;stroke:#373737;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10,7;stroke-opacity:1"
+          d="m -4107.9338,-1069.1509 -3.7783,-151.9218 13.2986,-1336.4903" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
         />
-        <path style="fill:none;stroke:#373737;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:5,5"
-          d="m -4074.036,-1070.743 2.0298,-150.3297 -14.328,-1380.4592" id="path1903" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
+        <path id="stringA" style="fill:none;stroke:#373737;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:8,6"
+          d="m -4074.036,-1070.743 2.0298,-150.3297 -14.328,-1380.4592" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"
         />
-        <path style="fill:none;stroke:#373737;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10,5;stroke-opacity:1"
-          d="m -4111.5293,-2457.4942 -9.5878,85.5046 -31.1607,1150.1345 4.794,149.8108" id="path3817" inkscape:connector-curvature="0"
+        <path id="stringG" style="fill:none;stroke:#373737;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12,8;stroke-opacity:1"
+          d="m -4111.5293,-2457.4942 -9.5878,85.5046 -31.1607,1150.1345 4.794,149.8108" inkscape:connector-curvature="0"
           sodipodi:nodetypes="cccc" />
-        <path style="fill:none;stroke:#373737;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:4,3"" d="m -4077.6741,-2506.6447 13.5322,117.4753 32.2305,1168.1179 -5.9322,147.4577"
-          id="path3819" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" />
+        <path id="stringE" style="fill:none;stroke:#373737;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:6,5" d="m -4077.6741,-2506.6447 13.5322,117.4753 32.2305,1168.1179 -5.9322,147.4577"
+          inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" />
       </g>
     </svg>
 
@@ -1204,17 +1204,34 @@
   </section>
 
   <script>  
-  // Add scroll to all buttons
+  // Add scroll to scroll button
+  $(function() {
+    $('a[href*=#]').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 670, 'linear');
+    });
+  });
+  
+ $(document).scroll(function() {
+  const y = $(this).scrollTop();
+  const box = document.getElementsByClassName('box')[0];
+  if (y > 900) {
+    $(box).fadeIn(1300);
+  } else {
+    $(box).fadeOut();
+  }
+});
+
+  // Add scroll to violin buttons
   const buttons = document.getElementsByClassName('buttons');
   for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function() {
     $('html,body').animate({
-        scrollTop: $("#section-two").offset().top},
-        'slow');
+        scrollTop: $('#section-two').offset().top}, 1500, 'linear');
   });
   };
 
-  // Add event listeners to Norwegian button
+  // Add event listeners to buttons
   const buttonNorwegian = document.getElementById('buttonNorwegian');
   buttonNorwegian.addEventListener('mouseover', function() {
     buttonNorwegian.style.fillOpacity = 0.7;
@@ -1229,7 +1246,7 @@
     }
   });
 
-  var buttonEnglish = document.getElementById('buttonEnglish');
+  const buttonEnglish = document.getElementById('buttonEnglish');
   buttonEnglish.addEventListener('mouseover', function() {
     buttonEnglish.style.fillOpacity = 0.7;
   });
@@ -1243,7 +1260,7 @@
     }
   });
 
-  var buttonGerman = document.getElementById('buttonGerman');
+  const buttonGerman = document.getElementById('buttonGerman');
   buttonGerman.addEventListener('mouseover', function() {
     buttonGerman.style.fillOpacity = 0.7;
   });
@@ -1256,7 +1273,8 @@
       sections[i].textContent = 'Dies ist ein Text auf Deutsch.';
     }
   });
-  var buttonSlovak = document.getElementById('buttonSlovak');
+
+  const buttonSlovak = document.getElementById('buttonSlovak');
   buttonSlovak.addEventListener('mouseover', function() {
     buttonSlovak.style.fillOpacity = 0.7;
   });
@@ -1269,13 +1287,6 @@
       sections[i].textContent = 'Toto je text v slovenčine.';
     }
   });
-
-  $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 670, 'linear');
-  });
-});
 </script>
 </body>
 </html>
