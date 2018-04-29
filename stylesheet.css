@@ -6,26 +6,6 @@ html,body {
   height: 100%;
 }
 
-#container {
-  width: 440px;
-  left: 50%;
-  margin: 0 0 0 -220px;
-  position: fixed;
-  display: none;
-}
-@media only screen and (max-width: 768px) {
-  #container {
-    width: 400px;
-    margin: 0 0 0 -200px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  #container {
-    width: 240px;
-    margin: 0 0 0 -120px;
-  }
-}
-
 section {
   position: relative;
   width: 100%;
@@ -45,27 +25,10 @@ section::after {
 }
 
 #section-two {
-  background: url(img/f_holes.svg), linear-gradient(#373737, #555555);
+  background: url(img/f_holes.svg), linear-gradient(rgba(55, 55, 55, 1), rgba(85, 85, 85, 1));
   background-attachment: fixed;
-  color: white;
+  color: #eee;
   text-align: center;
-}
-
-header.masthead .intro-text {
-  padding-top: 140px;
-}
-
-header.masthead .intro-text .intro-lead-in {
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  margin-bottom: 30px;
-}
-  
-header.masthead .intro-text .intro-heading {
-  font-size: 35px;
-  font-weight: 600;
-  line-height: 40px;
-  margin-bottom: 20px;
 }
 
 ul.social-buttons {
@@ -159,10 +122,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   stroke-miterlimit: 4;
   stroke-dasharray: none;
   stroke-opacity: 1;
-}
-
-#signature {
-  display: none;
 }
 
 #signature .path {
