@@ -39,7 +39,7 @@ $(document).ready(function () {
     $('h3').text('Ich heiße Michal und mag Dinge zu bauen.');
     $('.navbar-link a:nth(0)').text('über mich');
     $('.navbar-link a:nth(2)').text('ausbildung');
-    $('button').text('mehr über mich');
+    $('button').text('mehr Info');
   });
 
   $('#button-slovak').on('click', () => {
