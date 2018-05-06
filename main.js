@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('#welcome-page').fadeIn(3000, 'swing');
+  $('#welcome-page').fadeIn(3500);
 
   // Add scroll to anchor tags
   $('a[href*=#]').on('click', function (e) {
@@ -13,22 +13,22 @@ $(document).ready(function () {
   $('.language-buttons').on('click', () => {
     $('html, body').animate({
       scrollTop: $('#intro').offset().top
-      }, 3000, 'swing');
-    $('.navbar-signature').delay(3000).show(0);
+      }, 2000, 'swing');
+    $('.navbar-signature').delay(2200).show(0);
   });
 
   // Change language 
   $('#button-norwegian').on('click', () => {
     $('h1').text('Velkommen til min webside!');
-    $('h3').text('Jeg heter Michal og jeg liker å bygge ting.');
+    $('h3').show().text('Jeg heter Michal og jeg liker å bygge ting.');
     $('.navbar-link a:nth(0)').text('om meg');
     $('.navbar-link a:nth(2)').text('utdanning');
-    $('button').text('litt mer om meg');
+    $('button').text('litt om meg');
   });
 
   $('#button-english').on('click', () => {
     $('h1').text('Welcome to my webpage!');
-    $('h3').text('My name is Michal and I like to build stuff.');
+    $('h3').show().text('My name is Michal and I like to build stuff.');
     $('.navbar-link a:nth(0)').text('about me');
     $('.navbar-link a:nth(2)').text('education');
     $('button').text('more about me');
@@ -36,7 +36,7 @@ $(document).ready(function () {
 
   $('#button-german').on('click', () => {
     $('h1').text('Willkommen auf meiner Webseite!');
-    $('h3').text('Ich heiße Michal und mag Dinge zu bauen.');
+    $('h3').show().text('Ich heiße Michal und mag Dinge zu bauen.');
     $('.navbar-link a:nth(0)').text('über mich');
     $('.navbar-link a:nth(2)').text('ausbildung');
     $('button').text('mehr Info');
